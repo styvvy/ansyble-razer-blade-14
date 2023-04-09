@@ -1,0 +1,8 @@
+---
+# vars file for common
+aur_packages:
+  #- ly
+  #- brave-bin
+  - polybar
+  - quickemu
+  - quickgui-bin

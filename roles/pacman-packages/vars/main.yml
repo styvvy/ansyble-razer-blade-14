@@ -1,0 +1,27 @@
+---
+# vars file for common
+packages:
+  - vim
+  - neofetch
+  - xorg 
+  - xorg-xinit 
+  - i3-gaps
+  - dmenu 
+  - alacritty 
+  - pavucontrol 
+  - pulseaudio
+  - mlocate
+  - tree
+  - mtools 
+  - git 
+  - zsh
+  - htop
+  - gtop
+  - speedtest-cli
+  - feh
+  - wget
+  - curl
+  - unzip
+  - maim
+  - xclip
+  - firefox
