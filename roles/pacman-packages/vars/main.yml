@@ -24,4 +24,5 @@ packages:
   - unzip
   - maim
   - xclip
-  - firefox
+  - firefox # browser
+  - brillo # brightness controll
