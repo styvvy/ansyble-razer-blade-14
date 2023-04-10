@@ -3,4 +3,5 @@
   -  update i3 config with the keybind and script
 - write role for screenshots
   - update i3 config with the keybind and script
-- wirte role for battery optimization 
+- write role for battery optimization 
+- update poweroff and reboot script permissions
