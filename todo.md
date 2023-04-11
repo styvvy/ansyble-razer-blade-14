@@ -4,4 +4,6 @@
 - write role for screenshots
   - update i3 config with the keybind and script
 - write role for battery optimization 
+  - install auto-cpufreq
+  - install deamon
 - update poweroff and reboot script permissions
