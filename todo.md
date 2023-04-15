@@ -7,3 +7,6 @@
   - install auto-cpufreq
   - install deamon
 - update poweroff and reboot script permissions
+- setup screenshot function
+  - update i3 config with the keybind 
+  - update folder structure $HOME/Pictures/Screenshots
