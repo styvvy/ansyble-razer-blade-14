@@ -1,7 +1,7 @@
 ---
 # vars file for common
 packages:
-  - vim
+  - neovim
   - neofetch
   - xorg 
   - xorg-xinit 
@@ -26,3 +26,4 @@ packages:
   - xclip
   - firefox # browser
   - brillo # brightness controll
+  - thunar
