@@ -106,4 +106,5 @@ alias df.="df -h ."
 alias cd..="cd .."
 alias rmd="rm -rf"
 alias srmd="sudo rm -rf"
+alias vim="nvim"
 
