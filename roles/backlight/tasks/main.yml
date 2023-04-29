@@ -1,0 +1,26 @@
+---
+# install brillo
+- aur:
+   name="brillo"
+   user="{{user_name}}"
+
+- name: Create directory "Scripts" if it does not exist
+  ansible.builtin.file:
+    path: "{{home_dir}}/Scripts"
+    state: directory
+    mode: '0755'
+    owner: "{{user_name}}"
+
+- name: Copy des-bright
+  ansible.builtin.copy:
+    src: files/des-bright
+    dest: "{{home_dir}}/Scripts/des-bright"
+    owner: "{{user_name}}"
+    mode: '774'
+    
+- name: Copy asc-bright
+  ansible.builtin.copy:
+    src: files/asc-bright
+    dest: "{{home_dir}}/Scripts/asc-bright"
+    owner: "{{user_name}}"
+    mode: '774'

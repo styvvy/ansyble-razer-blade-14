@@ -1,0 +1,27 @@
+---
+# tasks file for common
+- name: Install packages with pacman
+  community.general.pacman:
+    name: "{{ packages }}"
+    state: present
+
+- name: Enable service sddm and ensure it is not masked
+  ansible.builtin.systemd:
+    name: sddm
+    enabled: yes
+    masked: no
+
+- name: Copy the theme
+  ansible.builtin.copy:
+    src: files/Amy-SDDM
+    dest: /usr/share/sddm/themes/
+
+- name: Copy the sddm.conf
+  ansible.builtin.copy:
+    src: files/sddm.conf
+    dest: /etc/sddm.conf
+
+- name: Make sure "sddm" service unit is running
+  ansible.builtin.systemd:
+    state: restarted
+    name: sddm

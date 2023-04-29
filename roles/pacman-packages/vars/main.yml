@@ -25,5 +25,6 @@ packages:
   - maim
   - xclip
   - firefox # browser
-  - brillo # brightness controll
   - thunar
+  - lxappearance
+  - arc-gtk-theme

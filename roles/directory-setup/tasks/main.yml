@@ -35,6 +35,13 @@
     mode: '0755'
     owner: "{{user_name}}"
 
+- name: Create directory "Pictures/Screenshots" if it does not exist
+  ansible.builtin.file:
+    path: "{{home_dir}}Pictures/Screenshots"
+    state: directory
+    mode: '0755'
+    owner: "{{user_name}}"      
+
 - name: Create directory "Virtualization" if it does not exist
   ansible.builtin.file:
     path: /Virtualization
