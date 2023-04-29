@@ -1,6 +1,6 @@
 # TODO
-- write role for brightness controll 
-  -  update i3 config with the keybind and script
+- X write role for brightness controll 
+  -  X update i3 config with the keybind and script
 - write role for battery optimization 
   - install auto-cpufreq
   - install deamon
