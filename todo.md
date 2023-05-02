@@ -8,3 +8,7 @@
 - X setup screenshot function
   - X update i3 config with the keybind 
   - X update folder structure $HOME/Pictures/Screenshots
+- write role for howdy 
+  - full howdy install
+  - full setup (copy howdy config)
+- clean up arch
